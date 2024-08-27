@@ -9,7 +9,10 @@ const Navbar = ({ setloginPopup }) => {
   const { gettotalAmount } = useContext(StoreContext);
 
   return (
-    <div className="navbar w-full h-[10vh] border-b border-[#FF7F50] flex items-center justify-between px-[4vmax] bg-[#ff7f50]" id="top">
+    <div
+      className="navbar w-full h-[10vh] border-b border-[#1b5240] flex items-center justify-between px-[4vmax] bg-[#1b5240]"
+      id="top"
+    >
       <div className="w-fit">
         <Link to="/">
           <h1 className="text-[1.6vmax] text-[white] font-semibold flex items-center gap-1 ">
@@ -57,7 +60,7 @@ const Navbar = ({ setloginPopup }) => {
         </div>
         <button
           onClick={() => setloginPopup(true)}
-          className="border-2 border-[white] text-[1vmax] text-[white] font-semibold flex items-center px-[0.8vmax] rounded-[2vmax] hover:bg-white hover:text-[#ff7f50] duration-200"
+          className="border-2 border-[white] text-[1vmax] text-[white] font-semibold flex items-center px-[0.8vmax] rounded-[2vmax] hover:bg-white hover:text-[#1b5240] duration-200"
         >
           Login/Sign Up
         </button>

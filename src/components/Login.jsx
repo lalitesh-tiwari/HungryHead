@@ -5,7 +5,7 @@ const Login = ({ setloginPopup }) => {
 
   return (
     <div className="fixed z-10 w-full h-screen bg-[rgba(0,0,0,0.65)] flex items-center justify-center">
-      <form className=" rounded-lg bg-[#FF7F50] w-[30%] h-[65%] text-white flex flex-col items-center justify-between p-[1vmax]">
+      <form className=" rounded-lg bg-[#1b5240] w-[30%] h-[65%] text-white flex flex-col items-center justify-between p-[1vmax]">
         <div className="w-[90%] flex items-center justify-between">
           <h1 className="text-[1.7vmax] ">
             <i className="ri-restaurant-fill text-[1.7vmax] mr-1"></i>
@@ -23,24 +23,24 @@ const Login = ({ setloginPopup }) => {
             <input
               type="text"
               placeholder="Enter Your Full Name"
-              className="w-[25vmax] h-[3vmax] rounded text-center text-[#FF7F50] outline-none bg-zinc-100"
+              className="w-[25vmax] h-[3vmax] rounded text-center text-[#1b5240] outline-none bg-zinc-100"
               required
             />
           )}
           <input
             type="email"
             placeholder="Enter Your Email"
-            className="w-[25vmax] h-[3vmax] rounded text-center text-[#FF7F50] outline-none bg-zinc-100"
+            className="w-[25vmax] h-[3vmax] rounded text-center text-[#1b5240] outline-none bg-zinc-100"
             required
           />
           <input
             type="password"
             placeholder="Enter Your Password"
-            className="w-[25vmax] h-[3vmax] rounded text-center text-[#FF7F50] outline-none bg-zinc-100"
+            className="w-[25vmax] h-[3vmax] rounded text-center text-[#1b5240] outline-none bg-zinc-100"
             required
           />
         </div>
-        <button className="w-[25vmax] h-[3vmax] border border-white rounded text-[1.2vmax] tracking-wide hover:bg-white hover:text-[#FF7F50] duration-200">
+        <button className="w-[25vmax] h-[3vmax] border border-white rounded text-[1.2vmax] tracking-wide hover:bg-white hover:text-[#1b5240] duration-200">
           {userStatus === "Sign Up" ? "Create Account!" : "Sign In"}
         </button>
         <div className="flex items-center justify-center w-[90%]">

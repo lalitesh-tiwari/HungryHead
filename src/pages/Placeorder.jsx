@@ -7,7 +7,7 @@ const Placeorder = () => {
   return (
     <form className="mt-[3vmax] flex">
       <div className="left w-[60%] flex flex-col items-center justify-center gap-[1vmax]">
-        <h1 className="text-[1.7vmax] font-semibold text-[#ff7f50] tracking-wide">
+        <h1 className="text-[1.7vmax] font-semibold text-[#1b5240] tracking-wide">
           Delivery Details
         </h1>
         <div className="flex gap-[1vmax]">
@@ -46,7 +46,7 @@ const Placeorder = () => {
         />
       </div>
       <div className="right w-[40%] flex flex-col">
-        <h1 className="text-[1.7vmax] font-semibold text-[#ff7f50] tracking-wide">
+        <h1 className="text-[1.7vmax] font-semibold text-[#1b5240] tracking-wide">
           Cart Details
         </h1>
         <div className="w-[45%] my-[0.5vmax] flex items-center justify-between border-b border-black/15">
@@ -63,7 +63,7 @@ const Placeorder = () => {
             ₹{gettotalAmount() === 0 ? 0 : gettotalAmount() + 60}
           </p>
         </div>
-        <button className="w-[45%] border border-[#ff7f50] font-semibold text-[#ff7f50] h-[2.5vmax] mt-[1vmax] hover:bg-[#ff7f50] hover:text-white duration-200">
+        <button className="w-[45%] border border-[#1b5240] font-semibold text-[#1b5240] h-[2.5vmax] mt-[1vmax] hover:bg-[#1b5240] hover:text-white duration-200">
           Proceed To Pay
         </button>
       </div>

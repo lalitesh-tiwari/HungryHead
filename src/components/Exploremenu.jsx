@@ -3,10 +3,7 @@ import { menu_list } from "../assets/assets";
 
 const Exploremenu = ({ category, setcategory }) => {
   return (
-    <div
-      className="w-[90%] mx-auto mt-[2.5vmax] rounded-lg"
-      id="menu"
-    >
+    <div className="w-[90%] mx-auto mt-[2.5vmax] rounded-lg" id="menu">
       <h1 className="text-[1.5vmax] font-semibold tracking-wider mb-[1vmax] ml-[2vmax]">
         Check Out Our Menu!
       </h1>
@@ -22,18 +19,18 @@ const Exploremenu = ({ category, setcategory }) => {
                 )
               }
               key={index}
-              className="flex flex-col items-center justify-evenly w-[11vmax]"
+              className="flex flex-col items-center justify-evenly w-[11vmax] hover:scale-[1.1] duration-200"
             >
               <img
                 src={item.menu_image}
                 className={`rounded-full w-[80%] h-[8.5vmax] cursor-pointer object-contain ${
-                  isActive ? "border-[2px] border-[#FF7F50]" : ""
+                  isActive ? "border-[2px] border-[#1b5240]" : ""
                 }`}
                 alt={item.menu_name}
               />
               <p
                 className={`text-[1.1vmax] mt-[0.5vmax] cursor-pointer ${
-                  isActive ? "text-[#FF7F50]" : ""
+                  isActive ? "text-[#1b5240]" : ""
                 }`}
               >
                 {item.menu_name}

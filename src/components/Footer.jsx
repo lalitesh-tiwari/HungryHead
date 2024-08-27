@@ -4,12 +4,12 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   return (
     <div
-      className="relative w-full h-[50vh] mt-[5vmax] bg-[#FF7F50] text-white flex items-center justify-evenly"
+      className="relative w-full h-[50vh] mt-[5vmax] bg-[#1b5240] text-white flex items-center justify-evenly"
       id="footer"
     >
       <i
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="absolute cursor-pointer ri-arrow-up-circle-fill text-[4vmax] right-[1%] bottom-0"
+        className="absolute cursor-pointer ri-arrow-up-circle-fill text-[4vmax] right-[1%] bottom-0 hover:scale-[0.9] duration-200"
       ></i>
       <div className="w-[30%] h-[70%] flex flex-col items-start justify-evenly">
         <h1 className="text-[2.5vmax] font-semibold flex items-center gap-1 ">
@@ -21,10 +21,10 @@ const Footer = () => {
           ordering experience for every appetite!
         </p>
         <div className="flex items-center gap-5">
-          <i className="ri-instagram-fill text-[2vmax] cursor-pointer hover:text-black duration-200"></i>
-          <i className="ri-facebook-circle-fill text-[2vmax] cursor-pointer hover:text-black duration-200"></i>
-          <i className="ri-youtube-fill text-[2vmax] cursor-pointer hover:text-black duration-200"></i>
-          <i className="ri-twitter-x-line text-[1.6vmax] cursor-pointer hover:text-black duration-200"></i>
+          <i className="ri-instagram-fill text-[2vmax] cursor-pointer hover:scale-[1.2] duration-200"></i>
+          <i className="ri-facebook-circle-fill text-[2vmax] cursor-pointer hover:scale-[1.2] duration-200"></i>
+          <i className="ri-youtube-fill text-[2vmax] cursor-pointer hover:scale-[1.2] duration-200"></i>
+          <i className="ri-twitter-x-line text-[1.6vmax] cursor-pointer hover:scale-[1.2] duration-200"></i>
         </div>
       </div>
       <div className="w-[20%] h-[70%] flex flex-col items-start justify-evenly py-[1vmax] pl-[3vmax]">
